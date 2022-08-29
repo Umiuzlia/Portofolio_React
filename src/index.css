@@ -1,14 +1,4 @@
-/* body {
-  background: black;
-  color: white;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-* {
+* body { 
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,7 +15,7 @@ code {
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --transition: ;
+  --transition: all 400sm ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -34,13 +24,12 @@ code {
 html {
   scroll-behavior: smooth;
 }
-::  -webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 
 body {
-  font-family: "poppins", sans-serif;
-  background: var(--color-bg);
+  font-family: "Poppins", sans-serif;
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-black-panel-background-material-image_267714.jpg);
