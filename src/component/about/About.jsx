@@ -1,6 +1,7 @@
 import React from "react";
 import './about.css'
 import ME from '../..//assets/me-about.JPG'
+import { Link } from "react-router-dom";
 
 const About = () => {
     return(
@@ -11,17 +12,15 @@ const About = () => {
             <div className="container about_container">
                 <div className="about_me">
                     <div className="about_me-img">
-                    <img src={ME} alt="About_Image"/>
+                        <img src={ME} alt="About_Image"/>
                     </div>
                     <div className="about_container">
                         <div className="about_cards"></div>
-
                             <p>Saya Seorang FreshGraduate Kimia dan saat ini saya mengeksplore diri sendiri dalam bidang Frond-End</p>
                             <a href="#contact" className="btn btn-primary">Let's Talk</a>
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }

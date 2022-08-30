@@ -1,5 +1,8 @@
 import React from "react";
 import './contact.css'
+import {HiOutlineMail} from 'react-icons/hi'
+import {AiOutlineWhatsApp} from 'react-icons/ai'
+import {GrInstagram} from 'react-icons/gr'
 
 const Contact = () => {
     return(
@@ -10,17 +13,20 @@ const Contact = () => {
             <div className="container contact_container">
                 <div className="contact_options">
                     <article className="contact_options">
-                            <h4>Email</h4>
+                        <HiOutlineMail/>
+                            {/* <h4>Email</h4> */}
                             <h5>umi99kirei@gmail.com</h5>
                             <a href="mailto:umi99kirei@gmail.com">Send a Massage</a>
                     </article>
                     <article className="contact_options">
-                            <h4>Instagram</h4>
+                        <GrInstagram/>
+                            {/* <h4>Instagram</h4> */}
                             <h5>Miumy2805</h5>
                             <a href="https:www.instagram.com/miumy2805/">Send a Massage</a>
                     </article>
                     <article className="contact_options">
-                            <h4>WhatsApp</h4>
+                        <AiOutlineWhatsApp/>
+                            {/* <h4>WhatsApp</h4> */}
                             <h5>085 337 262 535</h5>
                             <a href="https://www.whatsapp.com/085337262535">Send a Massage</a>
                     </article>

@@ -1,18 +1,15 @@
 .about_container {
-    display: grid;
-    grid-template-columns: 35% 50%;
+    /* display: grid; */
+    grid-template-columns: 10% 100%;
     gap: 15%;
+    text-align: center;
+    height: 100%;
 }
 
 .about_me {
-    width: 50%;
+    width: 100px;
     aspect-ratio: 1/1;
-    border-radius: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    border-radius: 2rem;
     display: grid;
     place-items: center;
 }
@@ -20,22 +17,25 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);  
-    transition: var(--transition);   
-    flex-direction: column; 
+    flex-direction: column;
 }
 .about_me-image:hover {
     transform: rotate(0);
 }
 
+.about_cards{
+    padding-inline-start: 300px;
+}
+
 .about_content p {
-    /* margin: 2rem 0.2rem; */
+    margin: 2rem 0.2rem;
     color: var(--color-light);
     text-align: center;
 }
 
 @media screen and (max-widht: 1024px) {
     .about_container {
-        /* grid-template-columns: 1fr; */
+        grid-template-columns: 1fr;
         gap: 0;
     }
     .about_me {
